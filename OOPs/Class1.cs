@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace OOPs
 {
-    class Class1
+    class Cat
     {
+        //STATES
+        //fields
+        private string name;
+
+        //Properties
+        public string Name
+        {
+            get { return this.name;  }
+            set { this.name = value; }
+        }
+
+
+        //BEHAVIORS
+        //Constructors
+        public Cat()
+        {
+            //default constructor, takes not parameters in the parenthesis
+        }
+
     }
 }
